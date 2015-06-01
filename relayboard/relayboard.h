@@ -1,0 +1,13 @@
+#ifndef RELAYBOARD_H
+#define RELAYBOARD_H
+
+#define RELAY PB3
+#define RELAY_PORT PORTB
+#define RELAY_DDR DDRB
+
+#define WATER_LOW PB4
+#define WATER_LOW_PORT PORTB
+#define WATER_LOW_PIN PINB
+#define WATER_LOW_DDR DDRB
+
+#endif // RELAYBOARD_H

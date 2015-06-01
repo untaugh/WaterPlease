@@ -1,0 +1,18 @@
+#include "CppUTest/TestHarness.h"
+#include "button.h"
+
+TEST_GROUP(button)
+{
+  void setup()
+  {
+    timer_clear();
+  }
+  void teardown()
+  {
+  }
+};
+
+TEST(button, first)
+{
+  CHECK(1);
+}
